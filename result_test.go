@@ -123,7 +123,7 @@ func (cm *CustomMarshaler) UnmarshalJSON(data []byte) error {
 	cm.Hash = c.Hash
 
 	if cm.Name == "bar" {
-		return fmt.Errorf("sorry but i don't like `bar`")
+		return fmt.Errorf("please but i don't like `bar`")
 	}
 
 	return nil
